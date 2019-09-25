@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Agent extends Model
+{
+    protected $table = 'agent';
+    protected $primaryKey = 'agentid';
+    protected $fillable = [
+        'userid','position','initials'
+    ];
+}
